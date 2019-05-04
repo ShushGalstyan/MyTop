@@ -59,11 +59,11 @@ function TOP_OPTION(){
 			        fi
 			fi
 			;;
-		h) for((;;)); do
+		h) 
 				clear
 				echo -e "\e[1;47;30m Help for Interactive Commands\e[0m"
-				echo -e "k,r       Manipulate tasks: 'k' kill; 'r' renice \n q         Quit\nType 'q'  to continue " 
-			 done
+				echo -e "k,r       Manipulate tasks: 'k' kill; 'r' renice \n q         Quit" 
+				sleep 3
 			;; 
 		*) echo -e "\e[1;47;30m Unknown command - try 'h' for help.\e[0m" ;;
 	esac
